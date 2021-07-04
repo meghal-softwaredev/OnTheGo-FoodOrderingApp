@@ -19,7 +19,7 @@ This app is responsive and allows login with google or sign in without login and
     <img src="/public/screenshots/subway-search.png"></img> 
 </div>
 <div>
-    Favrourite Restaurants:
+    Favourite Restaurants:
     <img src="/public/screenshots/favourite-restaurants.png"></img> 
 </div>
 <div>
@@ -35,14 +35,6 @@ This app is responsive and allows login with google or sign in without login and
     <img src="/public/screenshots/ETA-wise-sorting.png"></img> 
 </div>
 <div>
-    Chinese Tag:
-    <img src="/public/screenshots/chinese-tag.png"></img> 
-</div>
-<div>
-    Italian Tag:
-    <img src="/public/screenshots/italian-tag.png"></img> 
-</div>
-<div>
     Indian Tag:
     <img src="/public/screenshots/indian-tag.png"></img> 
 </div>
@@ -50,4 +42,5 @@ This app is responsive and allows login with google or sign in without login and
 Need to have MongoDb connection string to establish connection with database (insert in backend/server.js) and Google client id to use outh2 for google login functionality (insert in src/component/Login.js).
 
 To run Frontend: 1) npm start
+
 To run Backend: 2) node .\backend\server.js 
