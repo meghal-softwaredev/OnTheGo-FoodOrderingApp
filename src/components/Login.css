@@ -1,0 +1,25 @@
+.lcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  align-content: space-between;
+}
+
+
+.lbtn {
+  display: inline-flex;
+  width: 240px !important;
+  height: 50px !important;
+  background-color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  display: table-cell;
+  vertical-align: middle;
+}
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}

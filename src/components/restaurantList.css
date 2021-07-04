@@ -1,0 +1,61 @@
+.main {
+    background-color: light white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 10px;
+}
+.grid-item {
+  background-color: #ffffffcc;
+  border-radius: 5%;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+}
+#rlbgimg {
+  background-image: url("../background.jpg");
+}
+
+.rllogoutbtn {
+  text-align: right;
+}
+.searchbtn,
+.sortfilter {
+  text-align: center;
+  display: block;
+  height: 80px;
+  margin: 20px;
+}
+.search {
+  margin: 10px;
+  height: 30px !important;
+  width: 250px !important;
+}
+.btn {
+  display: inline;
+  height: 30px !important;
+  width: 100px !important;
+}
+.rlbtnfav {
+  display: inline;
+  margin: 10px;
+}
+.sort {
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+}
+.filter {
+  height: 30px;
+  width: 100px;
+}
+li {
+  list-style-type: none;
+}

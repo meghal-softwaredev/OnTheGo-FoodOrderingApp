@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# On the GO - Food Ordering App [MERN stack]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is responsive and allows login with google or sign in without login and have functionalities like searching, sorting and filtering restaurants based on inputs. App also allows to view Favourite restaurants which are marked favourite. Screenshots are available in public/screenshots.
 
-## Available Scripts
+<div>
+    Home Screen:
+    <img src="/screenshots/home-screen.png" width="400px"></img> 
+</div>
+<div>
+    IPhone-X View:
+    <img src="/screenshots/iphone-X-view.png.png" width="400px"></img> 
+</div>
+<div>
+    Ipad View:
+    <img src="/screenshots/ipad-view.png" width="400px"></img> 
+</div>
+<div>
+    Subway Search:
+    <img src="/screenshots/subway-search.png.png" width="400px"></img> 
+</div>
+<div>
+    Favrourite Restaurants:
+    <img src="/screenshots/favourite-restaurants.png" width="400px"></img> 
+</div>
+<div>
+    Location-wise Sorting:
+    <img src="/screenshots/location-wise-sorting.png" width="400px"></img> 
+</div>
+<div>
+    Rating-wise Sorting:
+    <img src="/screenshots/rating-wise-sorting.png" width="400px"></img> 
+</div>
+<div>
+    ETA-wise Sorting:
+    <img src="/screenshots/ETA-wise-sorting.png" width="400px"></img> 
+</div>
+<div>
+    Chinese Tag:
+    <img src="/screenshots/chinese-tag.png" width="400px"></img> 
+</div>
+<div>
+    Italian Tag:
+    <img src="/screenshots/italian-tag.png" width="400px"></img> 
+</div>
+<div>
+    Indian Tag:
+    <img src="/screenshots/indian-tag.png" width="400px"></img> 
+</div>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Need to have MongoDb connection string to establish connection with database (insert in backend/server.js) and Google client id to use outh2 for google login functionality (insert in src/component/Login.js).
