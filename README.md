@@ -8,7 +8,7 @@ This app is responsive and allows login with google or sign in without login and
 </div>
 <div>
     IPhone-X View:
-    <img src="/public/screenshots/iphone-X-view.png.png"></img> 
+    <img src="/public/screenshots/iphone-X-view.png"></img> 
 </div>
 <div>
     Ipad View:
@@ -16,7 +16,7 @@ This app is responsive and allows login with google or sign in without login and
 </div>
 <div>
     Subway Search:
-    <img src="/public/screenshots/subway-search.png.png"></img> 
+    <img src="/public/screenshots/subway-search.png"></img> 
 </div>
 <div>
     Favrourite Restaurants:
@@ -48,3 +48,6 @@ This app is responsive and allows login with google or sign in without login and
 </div>
 
 Need to have MongoDb connection string to establish connection with database (insert in backend/server.js) and Google client id to use outh2 for google login functionality (insert in src/component/Login.js).
+
+To run Frontend: 1) npm start
+To run Backend: 2) node .\backend\server.js 
