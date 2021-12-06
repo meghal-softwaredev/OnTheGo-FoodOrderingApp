@@ -1,11 +1,7 @@
 # On the GO - Food Ordering App [MERN stack]
 
-This app is responsive and allows login with google or sign in without login and have functionalities like searching, sorting and filtering restaurants based on inputs. App also allows to view Favourite restaurants which are marked favourite.
+This app is responsive and have functionalities like search, sort, filter and mark favourite restaurants based on inputs.
 
-<div>
-    Home Screen:
-    <img src="/public/screenshots/home-screen.png"></img> 
-</div>
 <div>
     IPhone-X View:
     <img src="/public/screenshots/iphone-X-view.png"></img> 
@@ -38,9 +34,3 @@ This app is responsive and allows login with google or sign in without login and
     Indian Tag:
     <img src="/public/screenshots/indian-tag.png"></img> 
 </div>
-
-Need to have MongoDb connection string to establish connection with database (insert in backend/server.js) and Google client id to use outh2 for google login functionality (insert in src/component/Login.js).
-
-To run Frontend: 1) npm start
-
-To run Backend: 2) node .\backend\server.js 
